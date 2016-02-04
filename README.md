@@ -82,3 +82,10 @@ Change Log
 Jul - 07 - 2013 - Initial Release.  
 Aug - 07 - 2013 - Code Clean Up.  
 Feb - 01 - 2015 - Returned, House Keeping and cleanup.  
+
+Updating UO ML to 5.0.9.1
+------------
+
+In the `archive` folder are the patch files to update from 4.0.11 (the version from [uoml_setup.exe](http://www.ausgamers.com/files/download/21727/ultima-online-client)) to 5.0.9.1.
+
+So, install [uoml_setup.exe](http://www.ausgamers.com/files/download/21727/ultima-online-client) and run UOPatch.exe. It will update only till 5.0.6a. Click 'Cancel' on the patcher and open the file "Verinfo" from the uo folder. Change its content from "Win32_ML 30" to "Win32_ML 31" and then run UOPatch.exe again to continue updating till 5.0.9.1.
